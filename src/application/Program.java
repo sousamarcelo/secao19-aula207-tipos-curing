@@ -10,6 +10,12 @@ public class Program {
 	public static void main(String[] args) {
 		List<Integer> myInts = Arrays.asList(5, 2, 10);
 		printList(myInts);
+		
+		System.out.println();
+		
+		List<String> myString = Arrays.asList("Maria", "Pedro", "João");
+		printList(myString);
+		
 	}
 	
 	public static void printList(List<?> list) {
